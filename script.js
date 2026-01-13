@@ -61,8 +61,6 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Aqui você normalmente enviaria o formulário para um servidor
-            // Por enquanto, apenas mostraremos uma mensagem de sucesso
             const submitBtn = this.querySelector('button[type="submit"]');
             const originalText = submitBtn.textContent;
             
@@ -128,4 +126,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
 });
